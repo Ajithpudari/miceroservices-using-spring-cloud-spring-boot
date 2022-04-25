@@ -1,0 +1,17 @@
+server:
+  port: 9001
+
+Spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: "jdbc:mysql://localhost:3306/micro"
+    username: root
+    password: root
+
+  application:
+    name: PAYMENT-SERVICE
+
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
