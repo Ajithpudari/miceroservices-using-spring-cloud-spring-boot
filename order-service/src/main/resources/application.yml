@@ -1,0 +1,20 @@
+server:
+  port: 9000
+
+Spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: "jdbc:mysql://localhost:3306/micro"
+    username: root
+    password: root
+
+  application:
+    name: ORDER-SERVICE
+
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+
+
+
